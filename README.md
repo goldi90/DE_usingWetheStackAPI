@@ -21,3 +21,10 @@ This project demonstrates how to build a modern data pipeline using **Apache Air
 
 ## 📁 Project Structure
 
+├── dags/ # Airflow DAGs for orchestrating the pipeline
+├── dbt/ # dbt project directory (models, tests, etc.)
+├── scripts/ # Python scripts for data extraction
+├── Dockerfile # Docker image with necessary dependencies
+├── docker-compose.yml # Orchestrates containers for Airflow, dbt, Postgres
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
